@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   res.status(200).json({
     status: 'online',
     message: 'Chartmetric Proxy API',
@@ -8,4 +8,4 @@ export default function handler(req, res) {
     version: '1.0.0',
     timestamp: new Date().toISOString()
   });
-}
+};
