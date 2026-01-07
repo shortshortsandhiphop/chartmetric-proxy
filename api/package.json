@@ -1,0 +1,13 @@
+{
+  "name": "chartmetric-proxy",
+  "version": "1.0.0",
+  "description": "Backend proxy for Chartmetric API",
+  "main": "api/chartmetric.js",
+  "scripts": {
+    "start": "node api/chartmetric.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}
