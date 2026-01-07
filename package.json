@@ -1,6 +1,7 @@
 {
   "name": "chartmetric-proxy",
   "version": "1.0.0",
+  "type": "module",
   "description": "Backend proxy for Chartmetric API",
   "main": "api/chartmetric.js",
   "scripts": {
